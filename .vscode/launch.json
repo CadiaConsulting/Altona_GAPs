@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Altona",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",          
+            "environmentName": "BRSandbox",
+            "tenant": "c67dd5ea-ac2c-49e2-811d-b2d385f34f6b",            
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}

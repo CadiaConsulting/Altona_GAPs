@@ -1,0 +1,32 @@
+{
+  "id": "c244b3ee-933d-4895-a2f9-51832382d350",
+  "name": "Altona_GAPs",
+  "publisher": "CADIA CONSULTING DO BRASIL LTDA",
+  "version": "1.0.0.0",
+  "brief": "Desenvolvimento dos GAPs para implantação do BC na Kaizen",
+  "description": "Projeto inicial de desenvolvimento dos GAPs, identificados na fase de Análise, para implantação do BC na Altona",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": ["TranslationFile", "GenerateCaptions"],
+  "suppressWarnings": ["AL0432", "AL0468", "AL0523", "AL0600", "AL0603", "AL0604", "AL0606"]
+
+}
