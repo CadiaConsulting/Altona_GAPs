@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="pt-BR" original="Altona_GAPs">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 1414884107 - Control 1388563530 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the Laboratory Responsible E-mail field.</source>
+          <target state="translated">Especifica o valor do campo "E-mail do responsável pelo laboratório".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card PTE - Control Laboratory Responsible E-mail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3311973409 - Control 761414441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Instructions for Use of Kits</source>
+          <target state="translated">Instruções de uso de kits</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales &amp; Receivables Setup PTE - Control Instructions for Use of Kits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2688763383 - Field 1388563530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Laboratory Responsible E-mail</source>
+          <target state="translated">E-Mail Responsável Laboratório</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer PTE - Field Laboratory Responsible E-mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3311973409 - Field 1428902129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Allows Auto Docum. Sending</source>
+          <target state="translated">Permite Envio Autom. Doc.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Allows Auto Docum. Sending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3311973409 - Field 4269965114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Technical Responsible E-mail</source>
+          <target state="translated">E-Mail Responsável Técnico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Technical Responsible E-mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3311973409 - Field 767908588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Technical Responsible Name</source>
+          <target state="translated">Nome Responsável Técnico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Technical Responsible Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3311973409 - Field 3560906133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Technical Responsible Phone</source>
+          <target state="translated">Telefone Responsável Técnico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Technical Responsible Phone - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

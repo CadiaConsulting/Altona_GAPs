@@ -2,15 +2,23 @@
   "id": "c244b3ee-933d-4895-a2f9-51832382d350",
   "name": "Altona_GAPs",
   "publisher": "CADIA CONSULTING DO BRASIL LTDA",
-  "version": "1.0.0.0",
-  "brief": "Desenvolvimento dos GAPs para implantação do BC na Kaizen",
+  "version": "1.0.0.0002",
+  "brief": "Desenvolvimento dos GAPs para implantação do BC na Altona",
   "description": "Projeto inicial de desenvolvimento dos GAPs, identificados na fase de Análise, para implantação do BC na Altona",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+     {
+      "id": "dd663d2b-e8aa-44c4-ba1f-96f3bf189af6",
+      "name": "Brazil Localization for Dynamics 365 Business Central",
+      "publisher": "CADIA CONSULTING DO BRASIL LTDA",
+      "version": "25.0.0.30"
+    }
+
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "27.0.0.0",
@@ -25,8 +33,8 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "17.0",
+  "runtime": "16.0",
   "features": ["TranslationFile", "GenerateCaptions"],
-  "suppressWarnings": ["AL0432", "AL0468", "AL0523", "AL0600", "AL0603", "AL0604", "AL0606"]
+  "suppressWarnings": ["AL0432", "AL0468", "AL0523", "AL0600", "AL0603", "AL0604", "AL0606","N0301"]
 
 }

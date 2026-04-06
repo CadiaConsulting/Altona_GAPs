@@ -5,9 +5,9 @@
             "name": "Altona",
             "request": "launch",
             "type": "al",
-            "environmentType": "Sandbox",          
+            "environmentType": "Sandbox",
             "environmentName": "BRSandbox",
-            "tenant": "c67dd5ea-ac2c-49e2-811d-b2d385f34f6b",            
+            "tenant": "c67dd5ea-ac2c-49e2-811d-b2d385f34f6b",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",
@@ -15,6 +15,17 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "BRSandbox",
+            "sessionId": 21644,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "c67dd5ea-ac2c-49e2-811d-b2d385f34f6b"
         }
     ]
 }

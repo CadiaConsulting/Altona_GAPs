@@ -1,0 +1,37 @@
+pageextension 50110 "Item List PTE" extends "Item List"
+{
+    layout
+    {
+        addafter(Description)
+        {
+            field("Anvisa Registration Nº"; "Anvisa Registration Nº")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Specifies the value of the Anvisa Registration Nº field.';
+            }
+
+        }
+
+
+    }
+    actions
+    {
+        // Add changes to page actions here
+        addafter("Va&riants")
+        {
+            action(MetaCliente)
+            {
+
+                Caption = 'Anvisa Registration';
+                ApplicationArea = all;
+                Image = Map;
+                ToolTip = 'Anvisa Registration';
+                RunObject = Page "Item Anvisa Registration List";
+                RunPageLink = "Item Nº" = field("No.");
+
+            }
+        }
+
+    }
+
+}
