@@ -13,7 +13,7 @@ codeunit 50100 Functions
         tagI: Record "CADBR NF-e Prod.Service-Tag I";
         customer: Record Customer;
         item: Record Item;
-        recordLink: Record "Record Link";
+        DocumentAttachment: Record "Document Attachment";
         salesSetup: Record "Sales & Receivables Setup";
         BranchInf: Record "cadbr Branch Information";
         fiscalFunctions: Codeunit "CADBR Fiscal Functions";
@@ -22,6 +22,7 @@ codeunit 50100 Functions
         EmailAccount: Record "Email Account" temporary;
         EmailAccountMgt: Codeunit "Email Account";
         TempBlob: Codeunit "Temp Blob";
+        Base64Convert: Codeunit "Base64 Convert";
         cnpj: Text;
         senderName: Text[30];
         senderAddress: Text[250];
@@ -29,6 +30,10 @@ codeunit 50100 Functions
         subject: Text[80];
         body: Text[1024];
         attachFileName: Text[250];
+        PDFBase64: array[10] of Text;
+        PDFName: array[10] of Text[250];
+        OutStr: OutStream;
+        InStr: InStream;
         i: Integer;
         countUrl: Integer;
         TextCustomerError: Label 'Não foi possível enviar os Documentos de Instrução de Uso para o cliente %1. Campo "E-Mail Responsável Laboratório" não pode estar vazio no cartão do cliente.';
@@ -55,14 +60,25 @@ codeunit 50100 Functions
         IF tagI.FINDFIRST THEN
             REPEAT
                 item.GET(tagI."No.");
-                recordLink.RESET;
-                recordLink.SETRANGE("Record ID", item.RECORDID);
-                recordLink.SETRANGE(Type, recordLink.Type::Link);
-                IF recordLink.FINDFIRST THEN
-                    REPEAT
+                DocumentAttachment.RESET;
+                DocumentAttachment.SETRANGE("Table ID", 27);
+                DocumentAttachment.SETRANGE("No.", tagI."No.");
+                DocumentAttachment.SETRANGE("File Type", DocumentAttachment."File Type"::PDF);
+                IF DocumentAttachment.FINDFIRST THEN begin
+
+                    if DocumentAttachment."Document Reference ID".HasValue then begin
+                        TempBlob.CreateOutStream(OutStr);
+                        DocumentAttachment."Document Reference ID".ExportStream(OutStr);
+
+                        TempBlob.CreateInStream(InStr);
+
                         countUrl += 1;
-                        Evaluate(attachFileName[countUrl], CopyStr(recordLink.URL1, 1, 250));
-                    UNTIL recordLink.NEXT = 0;
+                        pdfBase64[countUrl] := Base64Convert.ToBase64(InStr);
+                        PDFName[countUrl] := DocumentAttachment."File Name" + '.' + DocumentAttachment."File Extension";
+
+                    end;
+
+                end;
             UNTIL tagI.NEXT = 0;
 
         IF countUrl > 0 THEN BEGIN
@@ -92,7 +108,7 @@ codeunit 50100 Functions
 
                     CLEAR(i);
                     FOR i := 1 TO countUrl DO BEGIN
-                        EmailMessage.AddAttachment(attachFileName[i], 'pdf', 'base64');
+                        EmailMessage.AddAttachment(PDFName[i], 'pdf', pdfBase64[i]);
                     END;
 
                     Mail.Send(EmailMessage, EmailAccount);
@@ -104,6 +120,4 @@ codeunit 50100 Functions
 
     END;
 
-    var
-        myInt: Integer;
 }

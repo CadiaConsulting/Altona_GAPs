@@ -477,7 +477,7 @@ report 50100 "Sales - Quote Altona"
                     AutoFormatExpression = "Currency Code";
                     AutoFormatType = 1;
                 }
-                column(LineAmount_Line_Lbl; FieldCaption("Line Amount"))
+                column(LineAmount_Line_Lbl; LineAmount_Line_Lbl)
                 {
                 }
                 column(ItemNo_Line; "No.")
@@ -512,7 +512,10 @@ report 50100 "Sales - Quote Altona"
                     AutoFormatExpression = "Currency Code";
                     AutoFormatType = 2;
                 }
-                column(UnitPrice_Lbl; FieldCaption("Unit Price"))
+                column(UnitPrice_Lbl; UnitPrice_Lbl)
+                {
+                }
+                column(Discount_Line_Lbl; Discount_Line_Lbl)
                 {
                 }
                 column(UnitOfMeasure; "Unit of Measure")
@@ -1139,6 +1142,9 @@ report 50100 "Sales - Quote Altona"
         TotalVATAmountLCY: Decimal;
         PaymentTermsDescLbl: Label 'Payment Terms';
         ShptMethodDescLbl: Label 'Shipment Method';
+        UnitPrice_Lbl: Label 'Unit Price';
+        LineAmount_Line_Lbl: Label 'Line Amount';
+        Discount_Line_Lbl: Label '% Discount';
         SalesCommentLine: Record 44;
         CommentLine: Text;
 

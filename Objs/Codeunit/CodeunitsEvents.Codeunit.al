@@ -19,4 +19,19 @@ Codeunit 50101 "Codeunits Events"
 
     end;
 
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"CADBR Send Mail NFe", 'OnAfterNFeSendFile', '', false, false)]
+    local procedure Codeunit_86_OnAfterNFeSendFile(var SendOK: Boolean; var NFeProcess: Record "CADBR NF-e Process")
+    var
+        SalesReceivablesSetup: Record "Sales & Receivables Setup";
+        FunctionsAl: Codeunit Functions;
+    begin
+
+        SalesReceivablesSetup.GET;
+
+        IF (SendOK) and (SalesReceivablesSetup."Allows Auto Docum. Sending") AND (nfeProcess."Return Code" IN ['100', '104']) THEN BEGIN
+            FunctionsAl.SendItemDocuments(nfeProcess."NF-e Process No.");
+        END;
+
+    end;
+
 }

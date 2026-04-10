@@ -45,6 +45,138 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Technical Responsible Phone - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 36769898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method</source>
+          <target state="translated">Forma Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType PaymentMethodDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 2906320672" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <target state="translated">Termo Pagamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType PaymentTermsDescLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 1970452706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <target state="translated">Telefone</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType CompanyInfoPhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3468179104 - Field 1014392795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Boarding Condition</source>
+          <target state="translated">Condição de Embarque</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive PTE - Field Boarding Condition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4004404114 - Field 1014392795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Boarding Condition</source>
+          <target state="translated">Condição de Embarque</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header PTE - Field Boarding Condition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2784677505 - Field 1014392795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Boarding Condition</source>
+          <target state="translated">Condição de Embarque</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Invoice Header PTE - Field Boarding Condition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 2449874975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote</source>
+          <target state="translated">Cotação de Venda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType SalesConfirmationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - ReportDataItem 907109761 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote</source>
+          <target state="translated">Cotação de Venda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - ReportDataItem Header - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 67567136 - Field 2231720229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 67567136">
+          <source>Discount on Net Sale Value</source>
+          <target state="translated">Deconto no Valor Venda Liquida</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Tax Detail - Field Discount on Net Sale Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 1154581802" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <target state="translated">Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType LineAmount_Line_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 3311410250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <target state="translated">Preço Unitário</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType UnitPrice_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 3118856947" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Discount</source>
+          <target state="translated">% Desconto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType Discount_Line_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 956483201" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Sales Value (LCY)</source>
+          <target state="translated">Valor Venda Líquida (ML)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType AdjProfit_Control39CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 2766222804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Commission (LCY)</source>
+          <target state="translated">Comissão Vendas (ML)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType SalesCommissionAmt_Control32CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1129214877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Commission (LCY)</source>
+          <target state="translated">Comissão Vendas (ML)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalesCommissionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Commission</source>
+          <target state="translated">Comissão de Vendas - Altona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 3961074189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Commission</source>
+          <target state="translated">Comissão de Vendas - Altona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType Salesperson___CommissionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2447579698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Commission</source>
+          <target state="translated">Comissão de Vendas - Altona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalespersonCommissionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About Salesperson - Commission</source>
+          <target state="translated">Comissão de Vendas - Altona</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 2627882007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period: %1</source>
+          <target state="translated">Período: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 - period text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType PeriodTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Página</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Página</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
       </group>
     </body>
   </file>

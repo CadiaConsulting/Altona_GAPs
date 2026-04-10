@@ -123,6 +123,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType CopyLbl</note>
         </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 3118856947" size-unit="char" translate="yes" xml:space="preserve">
+          <source>% Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType Discount_Line_Lbl</note>
+        </trans-unit>
         <trans-unit id="Report 18597482 - NamedType 1198791402" size-unit="char" translate="yes" xml:space="preserve">
           <source>Email</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -182,6 +187,11 @@
           <source> (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType LCYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 1154581802" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType LineAmount_Line_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 18597482 - NamedType 1448166496" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Discount on VAT</source>
@@ -313,6 +323,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType UnitLbl</note>
         </trans-unit>
+        <trans-unit id="Report 18597482 - NamedType 3311410250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - NamedType UnitPrice_Lbl</note>
+        </trans-unit>
         <trans-unit id="Report 18597482 - NamedType 803899421" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -388,20 +403,255 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Quote Altona - Control LogInteraction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 660578064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Commission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 4105936907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjusted Profit Commission (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType AdjProfitCommissionAmt_Control45CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 956483201" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Sales Value (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType AdjProfit_Control39CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 1929534223" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All amounts are in LCY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType All_amounts_are_in_LCYCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 3121265833" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType Cust__Ledger_Entry__Posting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 2627882007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 - period text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType PeriodTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 4241464937" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit Commission (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType ProfitCommissionAmt_Control33CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 2766222804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Commission (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType SalesCommissionAmt_Control32CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 3961074189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Commission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType Salesperson___CommissionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2315275648" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About the report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel AboutTheReportLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 3063040667" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjusted Profit Commission (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel AdjustedProfitCommissionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 532200600" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjusted Profit (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel AdjustedProfitLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1583969329" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All amounts are in LCY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel AllAmountsAreInLCYLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2986747412" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel CommissionPercentLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2494243995" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel CompanyLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2035604559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel CustomerNameLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1760005613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel CustomerNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2439395454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data retrieved:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel DataRetrieved</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 408558832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Documentation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel DocumentationLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1001047844" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel DocumentNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2966300237" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel EnvironmentLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 3625737069" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel PeriodCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 371689398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel PostingDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1314777255" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit Commission (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel ProfitCommissionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2402117292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profit (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel ProfitLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1125190665" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel ReportNameLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 3266521242" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run on</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel RunOnLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 1129214877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Commission (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalesCommissionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 352035642" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalesLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2863354894" maxwidth="31" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesp. Commission (Analysis)</source>
+          <note from="Developer" annotates="general" priority="2">Excel worksheet name.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalespersonCommissionAnalysis</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2447579698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Commission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalespersonCommissionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2279086507" maxwidth="31" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Commission (Print)</source>
+          <note from="Developer" annotates="general" priority="2">Excel worksheet name.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel SalespersonCommissionPrint</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2171029553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel TotalsCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - ReportLabel 2996300441" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - ReportLabel UserLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About Salesperson - Commission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze the commissions by salesperson. See the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - RequestPage RequestOptionsPage - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 2536010183 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if each person's information is printed on a new page if you have chosen two or more persons to be included in the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control PrintOnlyOnePerPage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 2536010183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Person</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control PrintOnlyOnePerPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 2406857714 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Customer Ledger Entry filters applied to this report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control RequestCustLedgEntryFilterHeading - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 2406857714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust. Ledg. Entry Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control RequestCustLedgEntryFilterHeading - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 3234193531 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Date Period applied to this report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control RequestPeriodText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 3234193531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control RequestPeriodText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 247478144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Salesperson Filters applied to this report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control RequestSalespersonFilterHeading - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 660578064 - Control 247478144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Salesperson-Commission Altona - Control RequestSalespersonFilterHeading - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1414884107 - Control 1388563530 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Specifies the value of the Laboratory Responsible E-mail field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card PTE - Control Laboratory Responsible E-mail - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3946475116 - Action 3560549883 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+        <trans-unit id="PageExtension 3946475116 - Action 2196519173 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Anvisa Registration</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Action MetaCliente - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Action AnvisaRegistration - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3946475116 - Action 3560549883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+        <trans-unit id="PageExtension 3946475116 - Action 2196519173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Anvisa Registration</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Action MetaCliente - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Card PTE - Action AnvisaRegistration - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3946475116 - Control 2665321033 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Specifies the value of the Anvisa Registration Nº field.</source>
@@ -462,6 +712,11 @@
           <source>Specifies the value of the Boarding Condition field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Quote PTE - Control Boarding Condition - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2051912158 - Control 2231720229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 836093141">
+          <source>Specifies the value of the Discount on Net Sale Value field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Tax Jurisdictions PTE - Control Discount on Net Sale Value - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 2688763383 - Field 1388563530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Laboratory Responsible E-mail</source>
@@ -537,6 +792,11 @@
           <source>Version Quote No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Invoice Header PTE - Field Version Quote No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 104539924 - Field 2231720229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 104539924">
+          <source>Discount on Net Sale Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Tax Jurisdiction - Field Discount on Net Sale Value - Property Caption</note>
         </trans-unit>
       </group>
     </body>

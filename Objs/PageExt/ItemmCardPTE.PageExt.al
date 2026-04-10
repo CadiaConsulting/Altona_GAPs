@@ -4,7 +4,7 @@ pageextension 50109 "Item Card PTE" extends "Item Card"
     {
         addafter(Description)
         {
-            field("Anvisa Registration Nº"; "Anvisa Registration Nº")
+            field("Anvisa Registration Nº"; rec."Anvisa Registration Nº")
             {
                 ApplicationArea = All;
                 ToolTip = 'Specifies the value of the Anvisa Registration Nº field.';
@@ -19,7 +19,7 @@ pageextension 50109 "Item Card PTE" extends "Item Card"
         // Add changes to page actions here
         addafter("Va&riants")
         {
-            action(MetaCliente)
+            action(AnvisaRegistration)
             {
 
                 Caption = 'Anvisa Registration';
