@@ -733,6 +733,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field Allows Auto Docum. Sending - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3311973409 - Field 2747982728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>NF-e information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales &amp; Receivables Setup PTE - Field NF-e information - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3311973409 - Field 4269965114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Technical Responsible E-mail</source>
           <note from="Developer" annotates="general" priority="2"></note>

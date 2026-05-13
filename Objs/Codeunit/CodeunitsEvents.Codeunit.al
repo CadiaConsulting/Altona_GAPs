@@ -20,7 +20,7 @@ Codeunit 50101 "Codeunits Events"
     end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"CADBR Send Mail NFe", 'OnAfterNFeSendFile', '', false, false)]
-    local procedure Codeunit_86_OnAfterNFeSendFile(var SendOK: Boolean; var NFeProcess: Record "CADBR NF-e Process")
+    local procedure Codeunit_52007309_OnAfterNFeSendFile(var SendOK: Boolean; var NFeProcess: Record "CADBR NF-e Process")
     var
         SalesReceivablesSetup: Record "Sales & Receivables Setup";
         FunctionsAl: Codeunit Functions;
@@ -32,6 +32,20 @@ Codeunit 50101 "Codeunits Events"
             FunctionsAl.SendItemDocuments(nfeProcess."NF-e Process No.");
         END;
 
+    end;
+
+    [EventSubscriber(ObjectType::Codeunit, Codeunit::"CADBR Send Mail NFe", 'OnAfterCreatePayload', '', false, false)]
+    local procedure Codeunit_52007309_OnAfterCreatePayload(var Payload: Text)
+    var
+        SalesReceivablesSetup: Record "Sales & Receivables Setup";
+
+    begin
+
+        SalesReceivablesSetup.GET;
+
+        if SalesReceivablesSetup."NF-e information" <> '' then begin
+            Payload := Payload + SalesReceivablesSetup."NF-e information";
+        end;
     end;
 
 }

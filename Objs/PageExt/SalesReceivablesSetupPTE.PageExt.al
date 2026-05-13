@@ -24,6 +24,11 @@ pageextension 50144 "Sales & Receivables Setup PTE" extends "Sales & Receivables
                 {
                     ApplicationArea = all;
                 }
+                field("NF-e information"; rec."NF-e information")
+                {
+                    ApplicationArea = all;
+                    MultiLine = true;
+                }
             }
         }
 

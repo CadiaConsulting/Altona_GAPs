@@ -20,6 +20,11 @@ tableextension 50149 "Sales & Receivables Setup PTE" extends "Sales & Receivable
             Caption = 'Technical Responsible Phone';
             ExtendedDatatype = PhoneNo;
         }
+        field(50113; "NF-e information"; text[1024])
+        {
+            Caption = 'NF-e information';
+
+        }
 
     }
 }
